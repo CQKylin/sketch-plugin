@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>echarts-svg</title>
+    <style>
+        .echart-box {
+            margin: 50px auto;
+            width: 600px;
+            height: 400px;
+            background-color: #f3f3f3;
+        }
+    </style>
+</head>
+<body>
+    <div
+    id="bar-chart"
+    class="echart-box"></div>
+    <script src="./js/echarts.min.js"></script>
+    <script>
+        window.onload = function (){
+            let barChart = echarts.init(document.querySelector("#bar-chart"),null,{
+                renderer: "svg"
+            });
+
+            barChart.setOption(getBarChart());
+        }
+        function getBarChart() {
+            return {
+                xAxis: {
+                    type: 'category',
+                    data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+                },
+                yAxis: {
+                    type: 'value'
+                },
+                series: [{
+                    data: [120, 200, 150, 80, 70, 110, 130],
+                    type: 'bar'
+                }]
+            }
+        }
+    </script>
+</body>
+</html>

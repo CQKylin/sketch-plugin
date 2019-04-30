@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="117px" height="117px" viewBox="0 0 117 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>progress14</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="progress" transform="translate(-100.000000, -1069.000000)">
+            <g id="progress14" transform="translate(105.000000, 1074.000000)">
+                <path d="M53.36,3.0908609e-15 C82.8299143,1.54543045e-15 106.72,23.8900857 106.72,53.36 C106.72,82.8299143 82.8299143,106.72 53.36,106.72 C23.8900857,106.72 4.12114787e-15,82.8299143 0,53.36 C-3.60600438e-15,23.8900857 23.8900857,5.15143483e-15 53.36,0" id="Shape" stroke="#EBECF0" stroke-width="9.28" fill-opacity="0" fill="#000000" fill-rule="nonzero" stroke-dasharray="335.3179516601562,0"></path>
+                <path d="M53.36,3.0908609e-15 C82.8299143,1.54543045e-15 106.72,23.8900857 106.72,53.36 C106.72,82.8299143 82.8299143,106.72 53.36,106.72 C23.8900857,106.72 4.12114787e-15,82.8299143 0,53.36 C-3.60600438e-15,23.8900857 23.8900857,5.15143483e-15 53.36,0" id="Shape" stroke="#FF3000" stroke-width="9.28" fill-opacity="0" fill="#000000" fill-rule="nonzero" stroke-linecap="round" stroke-dasharray="201.2096429443359,134.1083087158203"></path>
+                <text id="60%" fill="#333333" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">
+                    <tspan x="27" y="61.1714286">60%</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
